@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* padding-bottom: 20px; */
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+
+.first-main {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../image/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+nav{
+    font-size: 15px;
+}
+
+nav h1 {
+    float: left;
+    color: #fff;
+}
+
+nav h1 span {
+    color: #3498db;
+}
+
+
+nav h2 {
+    float: right;
+    color: #fff;
+}
+
+.banner {
+    padding-top: 240px;
+    /* background-color: yellow; */
+    text-align: center;
+    color: #fff;
+}
+
+
+.banner h1 {
+    margin-bottom: 20px;
+    font-size: 45px
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.second-main {
+    /* background-color: yellow; */
+    margin-top: 30px;
+    margin-bottom: 4%;
+}
+
+.second-left {
+    float: left;
+    width: 29%;
+    /* background-color: blue; */
+    /* text-align: center; */
+}
+
+
+.second-main img {
+    width: 100%;
+    border-radius: 100%;
+
+}
+
+
+.second-right {
+    float: right;
+    width: 69%;
+    margin-top: 20px;
+    /* background-color: chocolate; */
+}
+
+.second-right h1 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.second-main p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+.third-main{
+    background-color: #3498db;
+    width: 100%;
+    color: #fff;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.third-section{
+    width: 80%;
+    padding-top: 70px;
+    /* background-color: rgb(196, 5, 50); */
+}
+
+.third-left{
+    float: left;
+    width: 69%;
+    /* padding: 50px; */
+    /* margin-top: 3%; */
+    /* background-color: rgb(30, 7, 209); */
+}
+
+.third-right{
+    float: right;
+    width: 29%;
+    /* background-color: chartreuse; */
+    margin-bottom: 20px;
+}
+
+
+.third-left h1 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.third-left p {
+    font-size: 15px;
+}
+
+.third-left button{
+    color: #3498db;
+    background-color: #fff;
+}
+
+
+.third-right img{
+    width: 100%;
+    border-radius:100%;
+}
+
+
+
+
+.fourth-main{
+    /* background-color: darkkhaki; */
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.fourth-main p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #949494;
+
+}
+
+.fourth-section{
+    text-align: center;
+    /* background-color: green; */
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fourth-main img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.box1{
+    /* background-color: darkblue; */
+    float: left;
+    width: 30%;
+    margin-right: 5%;
+}
+
+
+.box2{
+    /* background-color: rgb(205, 14, 52); */
+    float: left;
+    width: 30%;
+    /* margin-left: 5%; */
+}
+   
+
+.box3{
+    /* background-color: rgb(29, 202, 41); */
+    float: right;
+     width: 30%;
+}
+
+
+footer{
+    text-align:center;
+    margin-top: 30px;
+}
+
+
+footer .fa{
+    font-size: 20px;
+    border:0.1px solid gray;
+    border-radius:100%;
+    color:gray;
+    padding: 10px;
+    margin-left: 10px;
+      
+}
+
+footer h1{
+    text-align: center;
+    font-size: 15px;
+    color: #949494;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+footer h1 span{
+    color: slategrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:767px)
+{
+    
+    .second-left {
+        width: 100%;
+    }
+
+    .second-left img{
+        border-radius:20px;
+    }
+
+    
+
+    .second-right {
+        text-align: center;
+
+        width: 100%;
+    }
+
+    /* Third SEction */
+    .third-left, .third-right{
+        width: 100%;
+    }
+
+    .third-left{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+    .third-right img{
+        border-radius: 20px;
+    }
+
+
+   
+
+    .fourth-main .box1{
+        width: 100%;
+        margin-bottom:50px;
+    }
+
+    .fourth-main .box2{
+        width: 100%;
+        margin-bottom:50px;
+    }
+
+    .fourth-main .box3{
+        width: 100%;
+        margin-bottom:50px;
+    }
+
+
+    .fourth-main img{
+        border-radius: 20px;
+    }
+
+    .fourth-main p{
+        margin-top: 50px;
+    }   
+
+
+
+
+    
+    
+
+
+
+}
